@@ -1,4 +1,4 @@
-### Olá! Eu sou a Alessandra Sandeski, boas vindas ao meu repositório👋!
+### Olá! Eu sou a Alessandra Marmiroli, boas vindas ao meu repositório! 👋
 
 Aqui abaixo deixarei disponível uma forma de facilitar o nosso contato e você terá acesso aos meus projetos de forma organizada para visualizar os códigos e identificar as tecnologias utilizadas. 
 
