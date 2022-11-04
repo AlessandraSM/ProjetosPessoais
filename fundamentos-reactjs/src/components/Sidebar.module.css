@@ -1,0 +1,51 @@
+.sidebar { 
+    background: var(--gray-800);
+    border-radius: 8px;
+    overflow: hidden;/**Essa propriedade força a img a ocupar apenas o tamanho do elemento e manter um border-radius*/
+}
+.cover {
+    width: 100%;
+    height: 72px;
+    object-fit: cover;/**Não distorce a img mostra o centro da img*/
+} 
+.profile {
+    display: flex;
+    flex-direction: column;/**Mantendo as informações uma abaixo da outra*/
+    align-items: center;
+    margin-top: -2rem;
+}
+.profile strong {
+    margin-top: 1rem;
+    line-height: 1.6;/**Informação contida no Figma para que cada estilização fique exatamente como layout*/
+}
+.profile span { 
+    font-size: 0.875rem;
+    color: var(--gray-400);
+    line-height: 1.6;
+}
+
+.sidebar footer { 
+    border-top: 1px solid var(--gray-600);
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem 2rem;/**Consultando valores de Figma*/
+}
+.sidebar footer a {
+    background: transparent;
+    color: var(--green-500);
+    border: 1px solid var(--green-500);
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 0.75rem;/**Aqui houve mudança para 0.5rem como o meu icon se comportou da maneira esperada vou permanecer*/
+}
+.sidebar footer a:hover {
+    background: var(--green-500);
+    color: var(--white);
+    transition: color 0.1s, background-color 0.1s;
+}

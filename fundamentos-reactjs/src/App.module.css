@@ -1,0 +1,19 @@
+.wrapper { 
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+/**Fazendo uma conta de regra de três para obter a porcentagem da font-size 16px equivale a 1 rem e queremos 14px porém não podemos colocar um tamanho em pixel no html dessa forma o usuário não consegue aumentar ou diminuir no moble segue: 16 igual 100% 14 igual à x = 14* 100 / 16 = 87,5 */
